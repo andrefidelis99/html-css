@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
     <title>Game Lists</title>
+    <style>
+
+        div#dentro {
+            position: absolute;
+            background-color: purple;
+            height: 300px;
+            width: 400px;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        div#fora {
+            position: relative;
+            background-color: black;
+            height: 98vh;
+
+        }
+
+    </style>
 </head>
 <body>
     <h1>Lista dos meus jogos favoritos</h1>
@@ -44,5 +65,9 @@
             </ul>
         </ol>
     </ul>
+
+    <div id="fora">
+        <div id="dentro"></div>
+    </div>
 </body>
 </html>
