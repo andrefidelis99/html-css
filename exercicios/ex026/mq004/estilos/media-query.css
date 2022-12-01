@@ -16,6 +16,7 @@ Grandes telas: acima de 1200px (min)
     }
 
     main {
+        width: 80vw;
         border: 2px dashed black;
     }
 
