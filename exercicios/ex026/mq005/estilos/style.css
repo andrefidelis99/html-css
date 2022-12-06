@@ -25,6 +25,7 @@ menu {
 
 menu ul{
     list-style-type: none;
+    
 }
 
 span#burguer {
@@ -46,6 +47,7 @@ menu a {
     color: white;
     text-decoration: none;
     text-align: center;
+    padding: 10px;
     background-color: rgb(87, 87, 87);
     border-top: 2px solid gray;
 }
